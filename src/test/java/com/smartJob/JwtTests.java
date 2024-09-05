@@ -11,7 +11,7 @@ import org.springframework.test.util.ReflectionTestUtils;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 @SpringBootTest
-class SmartJobApplicationTests {
+class JwtTests {
 
 	@InjectMocks
 	private JwtUtil jwtUtil;

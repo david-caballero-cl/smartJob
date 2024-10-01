@@ -16,7 +16,7 @@ class JwtTests {
 	@InjectMocks
 	private JwtUtil jwtUtil;
 
-	private Long expiration = 604800L;
+	private Long expiration = 3600000L;
 
 	@BeforeEach
 	void setUp() {

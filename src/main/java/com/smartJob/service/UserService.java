@@ -19,9 +19,9 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class UserService {
 
-    private UserRepository userRepository;
-    private ModelMapper modelMapper;
-    private JwtUtil jwtUtil;
+    private final UserRepository userRepository;
+    private final ModelMapper modelMapper;
+    private final JwtUtil jwtUtil;
 
     public UserResponseDTO registerUser(UserDTO userDTO){
         Users user = modelMapper.map(userDTO, Users.class);
